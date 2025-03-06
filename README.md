@@ -1,3 +1,5 @@
+![logo](logo.jpg)
+
 # semgrep
 
 Reimplementation of the GNU grep tool with the following features:
