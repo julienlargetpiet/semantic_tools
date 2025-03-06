@@ -1,0 +1,5 @@
+matin 1
+midi 1
+soir 1
+nuit1
+ce matin je mange pour hier soir, le bon soir
