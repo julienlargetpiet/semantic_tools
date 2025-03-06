@@ -26,6 +26,8 @@ You can create a bash alias.
 
 Reimplementation of the GNU sed with the following synthax
 
+- understands this RegEx flavor <a href="https://github.com/julienlargetpiet/Simple_RegEx">Simple_regEx</a>
+
 ## Usage
 
 ```
