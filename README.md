@@ -4,7 +4,7 @@
 
 Reimplementation of the GNU grep tool with the following features:
 
-- understands this RegEx flavor <a href="https://github.com/julienlargetpiet/julienlargetpiet/Simple_RegEx">Simple_regEx</a>
+- understands this RegEx flavor <a href="https://github.com/julienlargetpiet/Simple_RegEx">Simple_regEx</a>
 - Give the current line of the matched patterns
 - Colors the patterns matched
 
