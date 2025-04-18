@@ -52,6 +52,8 @@ int main(int argc, char *argv[]) {
       std::cout << currow1 << sep << "-" << "\n";
     };
   };
+  file1.close();
+  file2.close();
   return 0;
 }
 
