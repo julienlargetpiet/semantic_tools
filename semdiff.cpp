@@ -4,10 +4,10 @@
 int main(int argc, char *argv[]) {
 
   if (argc < 2) {
-    std::cout << "Files missing";
+    std::cout << "Files missing\n";
     return 1;
   } else if (argc < 3) {
-    std::cout << "Second file missing";
+    std::cout << "Second file missing\n";
     return 1;
   };
 
