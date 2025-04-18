@@ -58,4 +58,28 @@ Note that the number of the rows you want the programm to perform in must be asc
 
 You can create a bash alias.
 
+# semdiff
+
+Reimplementation of the GNU `diff` command with `--side-to-side` option.
+
+# Usage
+
+```
+$ ./a.out file1.txt file2.txt curstom_dep(optional)
+```
+
+Output
+
+```
+oui | -
+non | non
+ | -
+P | -
+ll | ll
+ | -
+K | K
+ | +pp
+ | +mm
+ | +mm
+```
 
