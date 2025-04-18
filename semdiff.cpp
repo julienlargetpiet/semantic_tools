@@ -45,7 +45,7 @@ int main(int argc, char *argv[]) {
   };
   if (!comp) {
     while (getline(file2, currow2)) {
-      std::cout << sep << "+" << currow2 << "\n";
+      std::cout << sep << "+ " << currow2 << "\n";
     };
   } else {
     while (getline(file1, currow1)) {
