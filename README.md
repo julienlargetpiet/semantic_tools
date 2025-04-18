@@ -78,8 +78,8 @@ P | -
 ll | ll
  | -
 K | K
- | +pp
- | +mm
- | +mm
+ | + pp
+ | + mm
+ | + mm
 ```
 
