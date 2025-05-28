@@ -14,13 +14,13 @@ int main(int argc, char* argv[]) {
   unsigned int stop_row_nb;
   std::string file_name = argv[1];
   std::fstream stream_file(file_name);
-  while (cnt < argc) {
+  if (argc == 3) {
     row_val = argv[cnt];
     row_nb = int(row_val[0]) - 48;
     cnt2 = 1;
     while (cnt2 < row_val.length() & row_val[cnt2] != '-') {
       row_nb *= 10;
-      row_nb += (int(row_val[0]) - 48);
+      row_nb += (int(row_val[cnt2]) - 48);
       cnt2 += 1;
     };
     if (cnt2 < row_val.length()) {
